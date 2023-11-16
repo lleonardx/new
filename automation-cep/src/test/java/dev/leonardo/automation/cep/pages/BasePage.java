@@ -42,5 +42,4 @@ public abstract class BasePage {
 	public String getText (By locator) {
 		return this.driver.findElement(locator).getText();
 	}
-
 }
